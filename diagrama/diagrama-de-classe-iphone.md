@@ -10,7 +10,6 @@ classDiagram
 
     class ReprodutorMusical
     <<interface>> ReprodutorMusical
-        ReprodutorMusical: +String nomeReprodutor
         ReprodutorMusical: +tocar() void
         ReprodutorMusical: +pausar() void
         ReprodutorMusical: +selecionarMusica(String musica) void
@@ -18,7 +17,6 @@ classDiagram
 
     class Telefone
     <<interface>> Telefone
-        Telefone: +int numero
         Telefone: +ligar(int numero) void
         Telefone: +atender() void
         Telefone: +iniciarCorreioVoz() void
@@ -26,7 +24,6 @@ classDiagram
 
     class Navegador
     <<interface>> Navegador
-        Navegador: +String nomeNavegador
         Navegador: +exibirPagina(String url) void
         Navegador: +adicionarNovaAba() void
     Navegador <.. Chrome
